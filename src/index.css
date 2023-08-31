@@ -16,4 +16,11 @@
   .card:hover .icon {
     color: #4a6cf7;
   }
+  .Text:hover {
+    color: #4a6cf7;
+    cursor: pointer;
+  }
+  .wrkTabUiCntr{
+    text-align: -webkit-center;
+  }
 }

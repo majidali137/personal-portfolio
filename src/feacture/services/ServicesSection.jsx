@@ -1,18 +1,17 @@
 import Card from "../../pages/Card";
 import { MdPersonSearch } from "react-icons/md";
-import { PiUsersThreeBold } from "react-icons/pi";
 import { CgMenuGridR } from "react-icons/cg";
 import { SiMaterialdesignicons } from "react-icons/si";
 import { HiUserGroup } from "react-icons/hi";
 
 export default function ServicesSection() {
   return (
-    <div className="relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
+    <section className="relative px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
       <div className="absolute inset-0">
         <div className="h-1/3 bg-white sm:h-2/3" />
       </div>
       <div className="relative mx-auto max-w-7xl">
-        <div className="text-center">
+        <div className="text-center ">
           <span className="font-bold  text-[#4A6CF7]">What I Offer?</span>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             My Services
@@ -51,6 +50,6 @@ export default function ServicesSection() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
