@@ -3,6 +3,7 @@ import { MdPersonSearch } from "react-icons/md";
 import { CgMenuGridR } from "react-icons/cg";
 import { SiMaterialdesignicons } from "react-icons/si";
 import { HiUserGroup } from "react-icons/hi";
+import Heading from "../../pages/Heading";
 
 export default function ServicesSection() {
   return (
@@ -11,16 +12,11 @@ export default function ServicesSection() {
         <div className="h-1/3 bg-white sm:h-2/3" />
       </div>
       <div className="relative mx-auto max-w-7xl">
-        <div className="text-center ">
-          <span className="font-bold  text-[#4A6CF7]">What I Offer?</span>
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            My Services
-          </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-xl   text-[#959CB1] sm:mt-4 sm:text-lg">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
+        <Heading
+          subHeading="What I Offer?"
+          mainHeading="My Services"
+          description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+        />
 
         {/* Cards */}
         <div className=" sm:flex sm:space-x-6">

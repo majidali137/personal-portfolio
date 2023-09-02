@@ -1,140 +1,139 @@
 import React from "react";
+import Heading from "../../pages/Heading";
 
 export default function ResumeSection() {
   return (
-    <div>
-      <div className="mt-12 text-center  ">
-        <span className="text-blue-500 font-bold">Education & Experience</span>
-        <h1 className="text-5xl font-bold">My Resume</h1>
-        <span className="">
-          There are many variations of passages of Lorem Ipsum available but the
-          majority have suffered alteration in some form.
-        </span>
-      </div>
-      <div class="min-h-screen my-1  flex flex-col justify-center sm:py-1 border-b ">
-        <div class="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
-          <div class="relative text-gray-700 antialiased text-sm font-semibold">
-            <div class="hidden sm:block w-1 bg-blue-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
+    <>
+      {/* <!-- component --> */}
+      <section className="container  mx-auto w-full h-full mt-24 border-b sm:py-20 py-10">
+        <Heading
+          subHeading="Education & Experience"
+          mainHeading="My Resume"
+          description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+        />
 
-            {/* <!-- Left section, set by justify-start and sm:pr-8 --> */}
-            <div class="mt-6 sm:mt-0 sm:mb-12">
-              <div class="flex flex-col sm:flex-row items-center">
-                <div class="flex justify-start w-full mx-auto items-center">
-                  <div class="w-full sm:w-1/2 sm:pr-8">
-                    <div class="p-4 bg-white rounded shadow">
-                      Now this is a story all about how,
-                    </div>
-                  </div>
-                </div>
-                <div class="rounded-full  border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                    />
-                  </svg>
-                </div>
-              </div>
+        <div className="relative wrap overflow-hidden sm:p-10 pl-3 h-full">
+          <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border sm:left-[50%]"></div>
+
+          {/* <!-- left timeline --> */}
+          <div className="mb-1 sm:flex sm:justify-center sm:flex-row-reverse  sm:items-center w-full left-timeline">
+            <div className="order-1 sm:w-5/12 "></div>
+            <div className=" flex items-center order-1 bg-white border-[#4a6cf7] border-4  w-5 h-5 rounded-full absolute sm:relative  sm:left-0 left-[5px] mt-6"></div>
+            <div className="order-1 rounded-lg  sm:w-5/12 px-4 py-6">
+              <h3 className="mb-2 font-bold sm:text-right text-xl">
+                UI/UX Designer
+              </h3>
+              <h2 className="mb-2 font-bold sm:text-right text-lg text-[#959CB1]">
+                Google INC | New York
+              </h2>
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px] sm:float-right ">
+                2011-2013
+              </p>
+
+              <p className="text-sm sm:mt-16 font-medium mt-4 leading-snug tracking-wide sm:text-right text-[#959CB1]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
             </div>
+          </div>
 
-            {/* <!-- Right section, set by justify-end and sm:pl-8 --> */}
-            <div class="mt-6 sm:mt-0 sm:mb-12">
-              <div class="flex flex-col sm:flex-row items-center">
-                <div class="flex justify-end w-full mx-auto items-center">
-                  <div class="w-full sm:w-1/2 sm:pl-8">
-                    <div class="p-4 bg-white rounded shadow">
-                      My life got flipped turned upside down,
-                    </div>
-                  </div>
-                </div>
-                <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-                    />
-                  </svg>
-                </div>
-              </div>
+          {/* <!-- right timeline --> */}
+          <div className="mb-8 flex justify-center items-center w-full right-timeline">
+            <div className="order-1 sm:w-5/12"></div>
+            <div className=" sm:flex sm:items-center order-1 bg-white border-[#4a6cf7] border-4  w-5 h-5 rounded-full absolute sm:relative  sm:left-0 left-[5px] mt-6"></div>
+            <div className="order-1   sm:w-5/12 px-6 py-4">
+              <h3 className="mb-3 font-bold text-gray-800 text-xl">
+                Specialization Course
+              </h3>
+              <h2 className="text-[#959CB1] font-bold mb-2">
+                Stanford University | New York
+              </h2>
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px]   ">
+                2017-2018
+              </p>
+              <p className="text-sm leading-snug tracking-wide text-[#959CB1] font-semibold text-opacity-100 mt-2">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
             </div>
+          </div>
 
-            {/* <!-- Left section, set by justify-start and sm:pr-8 --> */}
-            <div class="mt-6 sm:mt-0 sm:mb-12">
-              <div class="flex flex-col sm:flex-row items-center">
-                <div class="flex justify-start w-full mx-auto items-center">
-                  <div class="w-full sm:w-1/2 sm:pr-8">
-                    <div class="p-4 bg-white rounded shadow">
-                      And I'd like to take a minute, just sit right there,
-                    </div>
-                  </div>
-                </div>
-                <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-              </div>
+          {/* <!-- left timeline --> */}
+          <div className="mb-1 sm:flex sm:justify-center sm:flex-row-reverse  sm:items-center w-full left-timeline">
+            <div className="order-1 sm:w-5/12 "></div>
+            <div className=" flex items-center order-1 bg-white border-[#4a6cf7] border-4  w-5 h-5 rounded-full absolute sm:relative  sm:left-0 left-[5px] mt-6"></div>
+            <div className="order-1 rounded-lg  sm:w-5/12 px-4 py-6">
+              <h3 className="mb-2 font-bold sm:text-right text-xl">
+                Web Designer
+              </h3>
+              <h2 className="mb-2 font-bold sm:text-right text-lg text-[#959CB1]">
+                Facebook INC | New York
+              </h2>
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px] sm:float-right ">
+                2014-2016
+              </p>
+
+              <p className="text-sm sm:mt-16 font-medium mt-4 leading-snug tracking-wide sm:text-right text-[#959CB1]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
             </div>
+          </div>
 
-            {/* <!-- Right section, set by justify-end and sm:pl-8 --> */}
-            <div class="mt-6 sm:mt-0">
-              <div class="flex flex-col sm:flex-row items-center">
-                <div class="flex justify-end w-full mx-auto items-center">
-                  <div class="w-full sm:w-1/2 sm:pl-8">
-                    <div class="p-4 bg-white rounded shadow">
-                      I'll tell you how I became the Prince of a town called Bel
-                      Air.
-                    </div>
-                  </div>
-                </div>
-                <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                    />
-                  </svg>
-                </div>
-              </div>
+          {/* <!-- right timeline --> */}
+          <div className="mb-8 flex justify-center items-center w-full right-timeline">
+            <div className="order-1 sm:w-5/12"></div>
+            <div className=" sm:flex sm:items-center order-1 bg-white border-[#4a6cf7] border-4  w-5 h-5 rounded-full absolute sm:relative  sm:left-0 left-[5px] mt-6"></div>
+            <div className="order-1   sm:w-5/12 px-6 py-4">
+              <h3 className="mb-3 font-bold text-gray-800 text-xl">
+                Bachelor Degree
+              </h3>
+              <h2 className="text-[#959CB1] font-bold mb-2">
+                Stanford University | New York
+              </h2>
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px]   ">
+                2019-2021
+              </p>
+              <p className="text-sm leading-snug tracking-wide text-[#959CB1] font-semibold text-opacity-100 mt-2">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+
+          {/* <!-- left timeline --> */}
+          <div className="mb-1 sm:flex sm:justify-center sm:flex-row-reverse  sm:items-center w-full left-timeline">
+            <div className="order-1 sm:w-5/12 "></div>
+            <div className=" flex items-center order-1 bg-white border-[#4a6cf7] border-4  w-5 h-5 rounded-full absolute sm:relative  sm:left-0 left-[5px] mt-6"></div>
+            <div className="order-1 rounded-lg  sm:w-5/12 px-4 py-6">
+              <h3 className="mb-2 font-bold sm:text-right text-xl">
+                UI/UX Designer
+              </h3>
+              <h2 className="mb-2 font-bold sm:text-right text-lg text-[#959CB1]">
+                Google INC | New York
+              </h2>
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px] sm:float-right ">
+                2011-2013
+              </p>
+
+              <p className="text-sm sm:mt-16 font-medium mt-4 leading-snug tracking-wide sm:text-right text-[#959CB1]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 }

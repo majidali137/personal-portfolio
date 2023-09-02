@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { CheckIcon } from "@heroicons/react/24/outline";
+import Heading from "../../pages/Heading";
 
 const pricing = {
   tiers: [
@@ -57,23 +58,14 @@ function classNames(...classes) {
 
 export default function PricingSection() {
   return (
-    <div className="bg-white border-b pb-8">
+    <section className="bg-white border-b pb-8 pt-28 ">
       {/* Header and Page Header */}
-      <div className="relative">
-        {/* Page Header */}
-        <div className="relative mx-auto max-w-2xl py-24 px-6 lg:max-w-7xl lg:py-32 lg:px-8">
-          <div className="relative">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none lg:text-6xl">
-              Pricing plans for teams of all sizes
-            </h1>
-            <p className="mt-6 max-w-2xl text-xl text-gray-500">
-              Choose an affordable plan that's packed with the best features for
-              engaging your audience, creating customer loyalty, and driving
-              sales.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Heading
+        subHeading="My Resume"
+        mainHeading="My Pricing Plans"
+        description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+        className="mb-20"
+      />
 
       <main>
         {/* Pricing Section */}
@@ -138,6 +130,6 @@ export default function PricingSection() {
           </div>
         </section>
       </main>
-    </div>
+    </section>
   );
 }
