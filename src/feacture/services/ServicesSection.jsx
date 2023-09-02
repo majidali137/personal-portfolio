@@ -3,7 +3,7 @@ import { MdPersonSearch } from "react-icons/md";
 import { CgMenuGridR } from "react-icons/cg";
 import { SiMaterialdesignicons } from "react-icons/si";
 import { HiUserGroup } from "react-icons/hi";
-import Heading from "../../pages/Heading";
+import Heading from "../../ui/Heading";
 
 export default function ServicesSection() {
   return (

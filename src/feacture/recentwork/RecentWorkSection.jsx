@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TabCard from "../../ui/TabCard";
-import Heading from "../../pages/Heading";
+import Heading from "../../ui/Heading";
 
 export default function RecentWorkSection() {
   const [openTab, setOpenTab] = useState(1);

@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "../../pages/Heading";
+import Heading from "../../ui/Heading";
 
 export default function ResumeSection() {
   return (

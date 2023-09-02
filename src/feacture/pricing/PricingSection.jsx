@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { CheckIcon } from "@heroicons/react/24/outline";
-import Heading from "../../pages/Heading";
+import Heading from "../../ui/Heading";
 
 const pricing = {
   tiers: [
@@ -58,7 +58,7 @@ function classNames(...classes) {
 
 export default function PricingSection() {
   return (
-    <section className="bg-white border-b pb-8 pt-28 ">
+    <section className="bg-white border-b pb-12 pt-28 ">
       {/* Header and Page Header */}
       <Heading
         subHeading="My Resume"
