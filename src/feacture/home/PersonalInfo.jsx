@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function PersonalInfo() {
   return (
     <>
       <div className=" xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm w-full mx-auto px-4 ">
         <div className="flex flex-wrap -mx-4">
+          {/* personal Details */}
           <div className="lg:w-3/6 px-4 self-center w-full">
             <div>
               <h1 className="font-semibold text-base mb-3 text-[#4a6cf7]">
@@ -32,6 +32,8 @@ export default function PersonalInfo() {
               </div>
             </div>
           </div>
+
+          {/* personal image */}
           <div className="lg:w-3/6 px-4 self-center w-full">
             <div className="xl:right-40 xl:bottom-0 xl:absolute xl:mt-0 mt-12 z-10 relative ">
               <img

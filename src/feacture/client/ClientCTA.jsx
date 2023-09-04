@@ -11,10 +11,7 @@ export default function ClientCTA() {
                 <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl max-w-xl mx-auto">
                   Want to work together and create amazing products with me ?
                 </h2>
-                {/* <p className="mx-auto mt-6 max-w-2xl text-lg text-rose-100">
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                    Dictum urna sed consectetur neque tristique pellentesque.
-                  </p> */}
+               
               </div>
               <form action="#" className="mt-12 sm:mx-auto sm:flex sm:max-w-lg">
                 <div className="min-w-0 flex-1">

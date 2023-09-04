@@ -12,7 +12,7 @@ export default function AboutSection() {
             <div className="pt-12 sm:pt-16 lg:pt-20">
               <span className="text-2xl font-bold text-[#4A6CF7]">
                 ABOUT ME
-              </span>{" "}
+              </span>
               <br />
               <h2 className=" text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl  max-w-[400px]">
                 Better design, better experience

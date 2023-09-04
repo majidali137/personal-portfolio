@@ -63,11 +63,13 @@ export default function BlogSectons() {
         <div className="h-1/3 bg-[#f8f9ff] sm:h-2/3" />
       </div>
       <div className="relative mx-auto max-w-7xl">
+       {/* blog Heading  */}
         <Heading
           subHeading="Recent Posts"
           mainHeading="From The Blog"
           description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
         />
+        {/* blog Card */}
         <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
             <div

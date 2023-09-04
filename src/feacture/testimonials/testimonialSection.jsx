@@ -8,12 +8,14 @@ export default function TestimonialSection() {
         <div className="h-1/3 bg-white sm:h-2/3" />
       </div>
       <div className="relative mx-auto max-w-7xl">
+        {/* heading */}
         <Heading
           subHeading="Awesome Testimonials"
           mainHeading="Hear From My Clients"
           description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
         />
 
+        {/* Testimonal Card */}
         <div className="sm:flex sm:space-x-7  ">
           <TestimonalCard
             CoDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero."

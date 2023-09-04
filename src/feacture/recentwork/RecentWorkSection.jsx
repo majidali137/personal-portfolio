@@ -109,13 +109,14 @@ export default function RecentWorkSection() {
                       heading="Business & corporate template"
                       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero."
                       image="src/data/image/images-portfolio-04.jpg"
-                      to="recent-work-details"
+                      path="recent-work-details"
                     />
 
                     <TabCard
                       heading="SaaS landing page"
                       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero."
                       image="src/data/image/images-portfolio-02.jpg"
+                      path="recent-work-details"
                     />
                   </div>
                 </div>
@@ -132,12 +133,14 @@ export default function RecentWorkSection() {
                       heading="Startup landing page"
                       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero."
                       image="src/data/image/images-portfolio-01.jpg"
+                      path="recent-work-details"
                     />
 
                     <TabCard
                       heading="Job portal landing page"
                       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero."
                       image="src/data/image/images-portfolio-03.jpg"
+                      path="recent-work-details"
                     />
                   </div>
                 </div>

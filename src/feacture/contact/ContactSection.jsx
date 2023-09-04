@@ -3,18 +3,23 @@ export default function ContactSections() {
   return (
     <>
       <section className="pt-24">
+        {/* contact Heading */}
         <Heading
           subHeading="Contact With Me"
           mainHeading="Have a Project in Mind?"
           description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
         />
       </section>
+
+      {/* contact Form */}
       <form className="space-y-8 divide-y sm:px-10 divide-gray-200  pb-24 py-8 px-12   sm:w-[920px] mx-auto">
         <div className="space-y-8 divide-y divide-gray-200">
           <div className="">
             <div className=" grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
+                 {/* Name */}
               <div className="sm:col-span-3">
                 <div className="mt-1">
+               
                   <input
                   placeholder="Enter your name"
                     type="text"
@@ -25,7 +30,7 @@ export default function ContactSections() {
                   />
                 </div>
               </div>
-
+                {/* Company Name */}
               <div className="sm:col-span-3">
                 <div className="mt-1">
                   <input
@@ -40,6 +45,7 @@ export default function ContactSections() {
               </div>
             </div>
             <div className="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
+              {/* Email */}
               <div className="sm:col-span-3">
                 <div className="mt-1">
                   <input
@@ -52,7 +58,7 @@ export default function ContactSections() {
                   />
                 </div>
               </div>
-
+                    {/* Phone Number */}
               <div className="sm:col-span-3">
                 <div className="mt-1">
                   <input
@@ -67,7 +73,7 @@ export default function ContactSections() {
                 </div>
               </div>
             </div>
-
+            {/* Textarea */}
             <div className="overflow-hidden  mt-6 shadow-sm focus:border-b-2 focus:border-[#4a6cf7]  focus:ring-0 focus:outline-none">
               <textarea
                 rows={3}
