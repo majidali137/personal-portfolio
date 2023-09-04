@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import PageNotFound from "./pages/PageNotFound";
 import Home from "./pages/Home.jsx";
+import RecentWorkDetails from "./feacture/recentwork/RecentWorkDetails";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/recent-work-details" element={<RecentWorkDetails/>} />
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>

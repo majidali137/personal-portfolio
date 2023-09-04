@@ -26,7 +26,7 @@ export default function ResumeSection() {
               <h2 className="mb-2 font-bold sm:text-right text-lg text-[#959CB1]">
                 Google INC | New York
               </h2>
-              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px] sm:float-right ">
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-5 py-2 text-right max-w-[110px] sm:float-right ">
                 2011-2013
               </p>
 
@@ -50,7 +50,7 @@ export default function ResumeSection() {
               <h2 className="text-[#959CB1] font-bold mb-2">
                 Stanford University | New York
               </h2>
-              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px]   ">
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-5 py-2 text-right max-w-[112px]   ">
                 2017-2018
               </p>
               <p className="text-sm leading-snug tracking-wide text-[#959CB1] font-semibold text-opacity-100 mt-2">
@@ -73,7 +73,7 @@ export default function ResumeSection() {
               <h2 className="mb-2 font-bold sm:text-right text-lg text-[#959CB1]">
                 Facebook INC | New York
               </h2>
-              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px] sm:float-right ">
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-5 py-2 text-right max-w-[112px] sm:float-right ">
                 2014-2016
               </p>
 
@@ -97,7 +97,7 @@ export default function ResumeSection() {
               <h2 className="text-[#959CB1] font-bold mb-2">
                 Stanford University | New York
               </h2>
-              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px]   ">
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-5 py-2 text-right max-w-[112px]   ">
                 2019-2021
               </p>
               <p className="text-sm leading-snug tracking-wide text-[#959CB1] font-semibold text-opacity-100 mt-2">
@@ -120,7 +120,7 @@ export default function ResumeSection() {
               <h2 className="mb-2 font-bold sm:text-right text-lg text-[#959CB1]">
                 Google INC | New York
               </h2>
-              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-4 py-1 text-right max-w-[100px] sm:float-right ">
+              <p className="bg-[#4a6cf7] text-sm  rounded-full text-white px-5 py-2 text-right max-w-[112px] sm:float-right ">
                 2011-2013
               </p>
 

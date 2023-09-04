@@ -1,5 +1,5 @@
 import Heading from "../../ui/Heading";
-import TestimonalCard from "../../ui/TestimonalCard";
+import TestimonalCard from "./TestimonalCard";
 
 export default function TestimonialSection() {
   return (

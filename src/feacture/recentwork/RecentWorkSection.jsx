@@ -109,6 +109,7 @@ export default function RecentWorkSection() {
                       heading="Business & corporate template"
                       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero."
                       image="src/data/image/images-portfolio-04.jpg"
+                      to="recent-work-details"
                     />
 
                     <TabCard

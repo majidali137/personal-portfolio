@@ -14,7 +14,7 @@ export default function AboutSection() {
                 ABOUT ME
               </span>{" "}
               <br />
-              <h2 className=" text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl max-w-sm">
+              <h2 className=" text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl  max-w-[400px]">
                 Better design, better experience
               </h2>
               <div className="mt-6 space-y-6 text-[#959CB1]">
@@ -39,7 +39,7 @@ export default function AboutSection() {
                   mi. Vestibulum sit amet urna placerat, tempor soloa demanium
                   testi lor Aliq lorem vitae semper tempor.
                 </p>
-                <div><SocialIcon/></div>
+                <div><SocialIcon className="h-8"/></div>
               </div>
             </div>
           </div>

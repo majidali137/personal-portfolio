@@ -66,10 +66,10 @@ const navigation = {
   ],
 };
 
-export default function SocialIcon() {
+export default function SocialIcon({className}) {
   return (
     <div>
-      <div className="flex space-x-6 md:order-2">
+      <div className={`flex space-x-6 md:order-2 ${className}`}>
         {navigation.social.map((item) => (
           <a
             key={item.name}
@@ -77,7 +77,7 @@ export default function SocialIcon() {
             className="text-gray-500 hover:text-gray-400 "
           >
             <span className="sr-only">{item.name}</span>
-            <item.icon className="h-6 w-6" aria-hidden="true" />
+            <item.icon className="h-9 w-9" aria-hidden="true" />
           </a>
         ))}
       </div>
