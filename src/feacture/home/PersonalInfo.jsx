@@ -3,46 +3,49 @@ import { Link } from "react-router-dom";
 
 export default function PersonalInfo() {
   return (
-    <div>
-      <div className="mx-auto max-w-7xl">
-        <div className="relative z-10 lg:w-full lg:max-w-2xl ">
-          <div className="relative py-4 px-2 sm:py-40 lg:py-16 lg: lg:pr-0">
-            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-              <div className="relative  py-1   font-semibold text-[#5c7af8] ">
-                Hey There 👋 I am
-              </div>
-
-              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-[50px] md:text-[45px] sm:text-6xl">
-                Daniel Jack
-              </h1>
-              <h2 className="leading-10 text-xl text-[#959CB1] font-medium ">
-                Professional{" "}
-                <span className="font-medium text-black text-xl">
-                  {" "}
-                  Graphic Designer
+    <>
+      <div className=" xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm w-full mx-auto px-4 ">
+        <div className="flex flex-wrap -mx-4">
+          <div className="lg:w-3/6 px-4 self-center w-full">
+            <div>
+              <h1 className="font-semibold text-base mb-3 text-[#4a6cf7]">
+                Hey There 👋 I am{" "}
+                <span className="md:leading-[50px] text-black md:text-5xl sm:leading-[1.25rem] sm:text-3xl font-bold text-3xl block mt-1 ">
+                  Daniel Jack
                 </span>
+              </h1>
+              <h2 className="md:text-xl text-[#959cb1] font-medium text-xl mb-5">
+                Professional{" "}
+                <span className="text-black">Graphic Designer</span>{" "}
               </h2>
-              <p className="mt-2  text-[#959CB1] max-w-[470px] lg:max-w-[410px] font-normal leading-normal text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum consequat convallis.
+              <p className="leading[1.625rem] font-medium text-base max-w-[470px] mb-11 text-[#959cb1]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                interdum consequat convallis.
               </p>
-              <div className="mt-10 flex items-center gap-x-6">
-                <Link
-                  to="#"
-                  className="rounded-full px-8 bg-[#4668f1]  py-3 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Contact Me
-                </Link>
-                <Link
-                  to="#"
-                  className="rounded-full px-8 bg-black  py-3 text-base font-semibold leading-7 text-white shadow-sm hover:bg-[#212648] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#212648]"
-                >
+              <div className="flex items-center">
+                <button className=" ease-out duration-300 transition-all text-white font-semibold text-base px-8 py-3 bg-[#4a6cf7] mr-4 rounded-full ">
+                  Contact me
+                </button>
+                <button className=" ease-out duration-300 transition-all text-white font-semibold text-base px-8 py-3 bg-black mr-4 rounded-full ">
                   Learn more
-                </Link>
+                </button>
               </div>
+            </div>
+          </div>
+          <div className="lg:w-3/6 px-4 self-center w-full">
+            <div className="xl:right-40 xl:bottom-0 xl:absolute xl:mt-0 mt-12 z-10 relative ">
+              <img
+                src="src\data\image\images-hero-image.png"
+                alt="heroImage"
+                className="max-w-full mx-auto"
+              />
+              <span className="bottom-[0.5rem] absolute">
+                <img src="src\data\image\hero-image.svg" alt="hero" />
+              </span>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
